@@ -1,15 +1,31 @@
-.nav-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
+header {
+  min-height: 30vh;
+  border: 1px solid blue;
+}
+header .nav-section {
   border: 1px solid red;
-  max-width: 700px;
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .nav-links {
   display: flex;
+  justify-content: space-between;
   width: 280px;
   border: 1px solid blue;
+}
+.max-width {
+  max-width: 700px;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.left-hero-section {
+  border: 1px solid red;
+  width: 350px;
+}
+.hero-img {
+  width: 350px;
+  height: 155px;
 }
